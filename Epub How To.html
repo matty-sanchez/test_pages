@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EPUB How to</title>
+    <style>
+
+body, html {
+  height: 100%;
+  margin:0;
+  padding:0;
+}
+
+.bg-image {
+  /* The image used */
+    background-image: url("https://i.imgur.com/plZK0dM.jpg");
+
+  /* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#infobox {
+    position:absolute;
+    z-index:2;
+    top:15%;
+    left:25%;
+    right:25%;
+    background-color:#212F3DF1;
+    border-radius:5%;
+/*    height:500px;*/
+    /*margin:auto;*/
+  /*  margin-top: 30px;*/
+    box-shadow: 1px 1px 18px purple;
+    padding:20px;
+    text-color: black;
+
+}
+p {
+    font-family: Georgia;
+    font-size:20px;
+    line-height:28px;
+    color: white;
+}
+
+a {
+    text-decoration:underline;
+    color:white;
+
+}
+a:visited {
+    color:white;
+}
+
+#content {
+    margin-top:35px;
+}
+
+.title {
+	font-size:24px;
+}
+    </style>
+
+</head>
+<body>
+    <div class="bg-image"></div>
+    <div id="infobox">
+        <div id="content">
+        <p>
+                <span class="title">Che cos’è EPUB?</span><br/>
+            EPub (abbreviazione di “electronic publication”, “pubblicazione elettronica”) è
+            uno standard aperto e specifico per la pubblicazione di ebook, ossia di libri
+            digitali. E’ basato sul linguaggio xml ed è divenuto uno dei formati più
+            diffusi nel mondo dell’editoria digitale.
+        </p>
+        <p>
+        Lo standard epub consente di organizzare il flusso di testo di un ebook in base
+        al dispositivo sul quale viene visualizzato.
+        </p>
+        <p>
+            <span class="title">Come leggere un ebook in formato EPUB</span><br/>
+
+            Su Windows, <a href="https://calibre-ebook.com/dist/win32" target="_blank">Calibre</a> e un veloce  
+            <a href="https://www.youtube.com/watch?v=oGzfYEeshl4">Tutorial</a> su come usarlo<br/>
+            
+            Su Android, <a href="https://play.google.com/store/apps/details?id=com.faultexception.reader&hl=it&gl=US" target="_blank">Lithium:</a><br>
+
+            Su Chrome, <a href="https://chrome.google.com/webstore/detail/epub-reader/mbcgbbpomkkndfbpiepjimakkbocjgkh" target="_blank" >EPUB READER</a> 
+        </p>
+        <p>
+            Buona lettura!
+        </p>
+
+ </div>
+        </div>
+
+</div>
+</body>
+</html>
+
